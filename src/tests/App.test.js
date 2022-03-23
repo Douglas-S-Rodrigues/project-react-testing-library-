@@ -27,7 +27,7 @@ describe('Testa o App', () => {
     const memoryHistory = renderWithRouter(<App />);
     memoryHistory.push('/qualquercoisa');
     const notFound = screen.getByRole('heading', { level: 2,
-      name: /Page requested not found/i});
+      name: /Page requested not found/i });
     expect(notFound).toBeInTheDocument();
   });
 });

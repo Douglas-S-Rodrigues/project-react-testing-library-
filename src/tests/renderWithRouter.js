@@ -8,7 +8,7 @@ function renderWithRouter(component) {
   render(
     <Router history={ memoryHistory }>
       { component }
-    </Router>
+    </Router>,
   );
   return memoryHistory;
 }
