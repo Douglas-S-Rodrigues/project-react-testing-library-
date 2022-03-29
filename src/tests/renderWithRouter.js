@@ -5,12 +5,12 @@ import React from 'react';
 
 function renderWithRouter(component) {
   const memoryHistory = createMemoryHistory();
-  render(
+  const selectors = render(
     <Router history={ memoryHistory }>
       { component }
     </Router>,
   );
-  return memoryHistory;
+  return { memoryHistory, ...selectors };
 }
 
 export default renderWithRouter;
