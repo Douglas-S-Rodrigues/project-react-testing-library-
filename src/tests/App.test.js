@@ -33,7 +33,7 @@ describe('Testa o App', () => {
   it('deve testar se o link estiver errado é levado ao NotFound', () => {
     const { memoryHistory } = renderWithRouter(<App />);
 
-    memoryHistory.push('/paginanãoexistente');
+    memoryHistory.push('/qualquercoisa');
     const notFound = screen.getByRole('heading', { level: 2,
       name: /Page requested not found/i });
     expect(notFound).toBeInTheDocument();
