@@ -14,6 +14,7 @@ describe('Testa o App', () => {
     const { location: { pathname } } = memoryHistory;
     expect(pathname).toBe('/');
   });
+
   it('deve testar o link About', () => {
     const { memoryHistory } = renderWithRouter(<App />);
 
@@ -22,6 +23,7 @@ describe('Testa o App', () => {
     const { location: { pathname } } = memoryHistory;
     expect(pathname).toBe('/about');
   });
+
   it('deve testar o link Favorites"', () => {
     const { memoryHistory } = renderWithRouter(<App />);
 
@@ -30,6 +32,7 @@ describe('Testa o App', () => {
     const { location: { pathname } } = memoryHistory;
     expect(pathname).toBe('/favorites');
   });
+
   it('deve testar se o link estiver errado é levado ao NotFound', () => {
     const { memoryHistory } = renderWithRouter(<App />);
 

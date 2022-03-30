@@ -10,6 +10,7 @@ describe('testes para o component pokedex', () => {
     const text = screen.getByRole('heading', { level: 2, name: /Encountered pokémons/i });
     expect(text).toBeInTheDocument();
   });
+
   it(`deve testar se é exibido o próximo Pokémon da lista
    quando o botão Próximo pokémon é clicado`, () => {
     renderWithRouter(<App />);
@@ -27,6 +28,7 @@ describe('testes para o component pokedex', () => {
     const secondPokemon = screen.getByText('Charmander');
     expect(secondPokemon).toBeInTheDocument();
   });
+
   it('deve testar se é mostrado apenas um Pokémon por vez', () => {
     renderWithRouter(<App />);
 
@@ -34,6 +36,7 @@ describe('testes para o component pokedex', () => {
 
     expect(details.length).toBe(1);
   });
+
   it('deve testar se a Pokédex tem os botões de filtro', () => {
     renderWithRouter(<App />);
 
