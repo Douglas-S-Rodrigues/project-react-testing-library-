@@ -20,5 +20,4 @@ Front-end: React.js, React Testing Library, Jest.
 
 ## Autores
 - Aplicação: Trybe
-- 
-Tests: [Douglas Rodrigues](https://www.github.com/Douglas-S-Rodrigues)
+- Tests: [Douglas Rodrigues](https://www.github.com/Douglas-S-Rodrigues)
