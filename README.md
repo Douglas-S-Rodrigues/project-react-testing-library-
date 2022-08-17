@@ -11,11 +11,13 @@ Criar mocks de APIs utilizando fetch.
 
 Testar inputs.
 
+
+
 # Stacks utilizadas
 
 Front-end: React.js, React Testing Library, Jest.
 
 
 ## Autores
-
-- [Douglas Rodrigues](https://www.github.com/Douglas-S-Rodrigues)
+Aplicação: Trybe
+Tests: -[Douglas Rodrigues](https://www.github.com/Douglas-S-Rodrigues)
