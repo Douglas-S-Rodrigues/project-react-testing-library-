@@ -19,5 +19,4 @@ Front-end: React.js, React Testing Library, Jest.
 
 
 ## Autores
-
-- Tests: [Douglas Rodrigues](https://www.github.com/Douglas-S-Rodrigues)
+ [Douglas Rodrigues](https://www.github.com/Douglas-S-Rodrigues)
